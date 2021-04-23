@@ -1,4 +1,5 @@
 package IR11;
+import IR11.Lab2.Calculator;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,7 +13,7 @@ class ApplicationTests {
     @Test
     void Laba2Test()
     {
-        IR11.Lab2.Calculator calculator = new IR11.Lab2.Calculator();
+        Calculator calculator = new Calculator();
         
         assertEquals(Float.MAX_VALUE, calculator.CalculateFormula(0));
         assertEquals(0, calculator.CalculateFormula(0.5f));
