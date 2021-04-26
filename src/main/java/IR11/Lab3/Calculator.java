@@ -10,6 +10,8 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+import org.apache.commons.lang3.ArrayUtils;
+
 
 /**
  *
@@ -18,16 +20,14 @@ import java.util.Random;
 public class Calculator {
     private int arrayLength;
     private int lowerBorder;
-    private int upperBorder;
-    private int numberToSearch;
+    private int upperBorder;   
     private int[] array;
     
-    public Calculator()
+    public Calculator(int k)
     {
-        arrayLength = 100;
-        lowerBorder = 0;
-        upperBorder = 9;
-        numberToSearch = 0;
+        arrayLength = k;
+        lowerBorder = 1;
+        upperBorder = 100;
         array = new int[arrayLength];
     }
     
@@ -40,20 +40,16 @@ public class Calculator {
     {
         Random rd = new Random();
         for (int i = 0; i < array.length; i++)
-           array[i] = rd.nextInt(upperBorder + 1);
+           array[i] = rd.nextInt(upperBorder + lowerBorder);
     }
     
-//    public String BiggestNumbers()
-//    {
-//        Arrays.sort(array);
-//        List<Integer> list = Arrays.asList(array);
-//        
-//        Collections.reverse(list);
-////        list.subList(0,3);
-////        return Arrays.toString(list.toArray());
-//         return Arrays.toString(list.toArray());
-//
-//    }
+    public String BiggestNumbers(int n)
+    {
+        Arrays.sort(array);
+        ArrayUtils.reverse(array);
+        int[] result = Arrays.copyOfRange(array, 0, n);
+        return Arrays.toString(result);
+    }
     
     public String DisplayArray()
     {
