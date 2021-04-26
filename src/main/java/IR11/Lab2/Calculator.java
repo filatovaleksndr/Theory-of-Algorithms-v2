@@ -20,10 +20,10 @@ public class Calculator {
     
     public Calculator()
     {
-        _a = -1;
-        _b = -4;
-        _c = 6;
-        _d = 6;
+        _a = 6;
+        _b = 2;
+        _c = 0;
+        _d = 2;
     }
 
     public Calculator(float a, float b, float c, float d) {
