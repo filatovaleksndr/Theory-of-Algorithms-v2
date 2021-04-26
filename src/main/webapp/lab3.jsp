@@ -19,10 +19,10 @@
             <a  href="index.jsp">Back to landing page</a>
             <h1 >Lab 3</h1>
            
-                <%! Calculator calculator = new Calculator();%>
+                <%! Calculator calculator = new Calculator(66);%>
                 <%calculator.InitArray();%>
                 <p>Array: <%= calculator.DisplayArray()%></p>
-                <p>Result: <%= calculator.BiggestNumbers()%></p>
+                <p>Result: <%= calculator.BiggestNumbers(3)%></p>
             
         
     </body>
