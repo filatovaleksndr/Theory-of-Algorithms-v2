@@ -21,7 +21,7 @@
                 <a href="lab1.jsp">Laba 1</a>
                 <a href="lab2.jsp">Laba 2</a>
                 <a href="lab3.jsp">Laba 3</a>
-            
+            <a href="lab4.jsp">Laba 4</a>
         
     </body>
 </html>
