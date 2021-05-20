@@ -4,9 +4,17 @@
         <servlet-name>Servlet</servlet-name>
         <servlet-class>IR11.Lab2.Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Lab5Servlet</servlet-name>
+        <servlet-class>IR11.Lab5.Lab5Servlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/lab2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Lab5Servlet</servlet-name>
+        <url-pattern>/lab5</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
