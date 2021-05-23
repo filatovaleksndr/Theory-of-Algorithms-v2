@@ -72,7 +72,7 @@
                 <p><b>Sorted by string field: </b><br/> <%= part2.DisplayList()%></p>
                 <p><b>Index of element with value </b><%= find %>: <%= part2.IndexOf(find)%></p>
                 <% part2.SortByShortField();%>
-                <p><b>Sorted by short field: </b><br/> <%= part2.DisplayList()%></p>
+                <p><b>Sorted by int field: </b><br/> <%= part2.DisplayList()%></p>
                 <p><b>Index of element with value </b><%= find %>: <%= part2.IndexOf(find)%></p>
             </div>
         </div>

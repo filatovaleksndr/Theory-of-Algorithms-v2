@@ -23,6 +23,7 @@
                 <a href="lab3.jsp">Laba 3</a>
                 <a href="lab4.jsp">Laba 4</a>
                 <a href="lab5.jsp">Laba 5</a>
+                <a href="lab6.jsp">Laba 6</a>
         
     </body>
 </html>
