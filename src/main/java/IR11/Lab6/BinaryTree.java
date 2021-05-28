@@ -7,7 +7,7 @@ package IR11.Lab6;
 
 /**
  *
- * @author Ruslan
+ * @author Alex
  */
 public class BinaryTree {
     Node root;
