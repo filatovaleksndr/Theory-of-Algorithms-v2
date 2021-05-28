@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author Ruslan
+ * @author Alex
  */
 public class BinaryTreePrinter {
     private static String result;
