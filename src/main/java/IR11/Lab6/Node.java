@@ -7,7 +7,7 @@ package IR11.Lab6;
 
 /**
  *
- * @author Ruslan
+ * @author Alex
  */
 class Node<T extends Comparable<?>> {
     Node<T> left, right;
